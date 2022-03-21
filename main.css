@@ -1,0 +1,41 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-image: url('img/fondopokedex.webp');
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: top left;
+}
+
+h1 {
+    color: white;
+}
+
+.flexbox-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    margin-left: 25%;
+    background-color: rgba(0, 123, 255, .8);
+    width: 60%;
+    border-radius: 20px;
+}
+
+.flexbox-item {
+    padding: 20px;;
+}
+
+.flexbox-item-1 {
+
+}
+
+.flexbox-item-2 {
+    font-size: large;
+    color: beige;
+    font-weight: bold;
+}
